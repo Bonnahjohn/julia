@@ -17,7 +17,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm hero section mmmmmmmmmmmmmmmm -->
  <section class=" bg-[#1e1f24] rounded-2xl py-14">
 <div class="flex flex-col justify-center text-center text-white">
-   <img :src="image" alt="hero image" class="lg:w-[15%] lg:h-[15%] w-40 rounded-full mx-auto ">
+   <img :src="image" alt="hero image" class="lg:w-[20%] lg:h-[5%] w-40 rounded-[100%] mx-auto ">
    <br>
    <br>
           <p class=" font-bold  text-2xl "> Hello There, I'm </p>
@@ -396,11 +396,73 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
 </div>
     </div>
     </section>
+
+
+    
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      contact us
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <section class=" bg-white  py-14 mt-16 rounded-2xl lg:px-10 px-5">
+      <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">GET IN TOUCH</h5>
+      <br><p class="text-lg text-neutral-600 text-center">
+ Duis aute irure in reprehen pteur sint occaect cupidatat  <br>
+ non proident,sunt in culim id est.
+      </p>
+     
+      <div class="grid lg:grid-cols-3 grid-rows-1 pt-12">
+    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      address
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <div>
+      <div class="w-20 h-20  bg-[#adff00] rounded-full relative mx-auto ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 mx-auto text-neutral-500 absolute top-6 start-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+</svg>
+
+</div> <br>
+<h5 class="text-2xl font-bold text-center">Address</h5>
+<p class="text-lg text-neutral-500 text-center">lorem gjal ;llmdkml g,,dfslfd,l</p>
+    </div>
+       
+  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      phone
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <div>
+      <div class="w-20 h-20  bg-[#adff00] rounded-full relative mx-auto ">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 mx-auto text-neutral-500 absolute top-6 start-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+</svg>
+
+</div> <br>
+<h5 class="text-2xl font-bold text-center">Address</h5>
+<p class="text-center"><a class="text-lg text-neutral-500" href="tel:+233554308135">0554308135</a></p>
+    </div>
+
+         
+  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      phone
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <div>
+      <div class="w-20 h-20  bg-[#adff00] rounded-full relative mx-auto ">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 mx-auto text-neutral-500 absolute top-6 start-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+</svg>
+
+</div> <br>
+<h5 class="text-2xl font-bold text-center">Email</h5>
+<p class="text-center"><a class="text-lg text-neutral-500" href="mailto:www.bonnahpoku@gmail.com">Bonnahpoku@gmail.com</a></p>
+    </div>
+
+      </div>
+    </section>
     </main>
 </template>
 
 <script>
-import image from '@/assets/images/banner.jpg'
+import image from '@/assets/images/hero.jpg'
 import world from '@/assets/images/world.jpg'
 //  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 //       portfolio images
