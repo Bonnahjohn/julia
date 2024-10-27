@@ -17,7 +17,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm hero section mmmmmmmmmmmmmmmm -->
  <section class=" bg-[#1e1f24] rounded-2xl py-14">
 <div class="flex flex-col justify-center text-center text-white">
-   <img :src="image" alt="hero image" class="lg:w-[20%] lg:h-[5%] w-40 rounded-[100%] mx-auto ">
+   <img :src="image" alt="hero image" class="lg:w-[20%] lg:h-[30%] w-40 rounded-[100%] mx-auto ">
    <br>
    <br>
           <p class=" font-bold  text-2xl "> Hello There, I'm </p>
@@ -267,8 +267,15 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 <section class=" bg-white  py-14 mt-16 rounded-2xl lg:px-10 px-5">
   <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">PORTFOLIO</h5>
-<br><p class="text-lg text-neutral-400 text-center">
+<br><p class="text-lg text-neutral-400 text-center hidden lg:visible">
   Showcasing a collection of work that demonstrates expertise and attention to detail.<br>
+  Every project is crafted  to deliver quality and drive impactful results.
+ </p>
+ <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+   for mobile only
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+ <p class="text-lg text-neutral-400 text-center lg:hidden visible">
+  Showcasing a collection of work that demonstrates expertise and attention to detail.
   Every project is crafted  to deliver quality and drive impactful results.
  </p>
 
@@ -402,14 +409,14 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       contact us
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-    <section class=" bg-white  py-14 mt-16 rounded-2xl lg:px-10 px-5">
+    <section class=" bg-white  py-36 mt-16 rounded-2xl lg:px-10 px-5">
       <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">GET IN TOUCH</h5>
       <br><p class="text-lg text-neutral-600 text-center">
  Duis aute irure in reprehen pteur sint occaect cupidatat  <br>
  non proident,sunt in culim id est.
       </p>
      
-      <div class="grid lg:grid-cols-3 grid-rows-1 pt-12">
+      <div class="grid lg:grid-cols-3 grid-rows-1 pt-12 lg:gap-x-5  gap-y-4">
     <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       address
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
@@ -457,7 +464,49 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
     </div>
 
       </div>
+
+      <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      the two grid  for the contact us
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+      <div class="grid lg:grid-cols-2 grid-rows-1 gap-12 pt-16">
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     the map
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+<div class="bg-red-700 h-full w-full">
+g
+</div>
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     the contact us form
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+      <form >
+        <h6 class="text-3xl font-bold">Write a message</h6>
+        <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-5  gap-y-4 pt-10">
+          <input type="text" placeholder="Name*" class="border border-gray-400 rounded-md p-3">
+          <input type="email" placeholder="Email*" class="border border-gray-400 rounded-md p-3">
+        </div>
+        <textarea   class="border border-gray-400 rounded-md mt-5 w-full h-[60%] p-4 mb-3" placeholder="Your Message here"></textarea>
+    
+        <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     submit button
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+        <button class="bg-[#adff00] hover:bg-opacity-50 hover:text-white px-10 py-3 font-bold text-lg rounded-lg">SEND MESSAGE</button>
+      </form>
+      </div>
     </section>
+
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     footer
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <section class=" bg-[#1e1f24]  py-16 mt-16 rounded-2xl lg:px-10 px-5">
+      <h6 class="text-[#adff00] text-4xl font-bold text-center">Tenace</h6> <br>
+      <p class="text-center text-lg text-neutral-500"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti magnam nisi facilis ab nobis quia labore hic ipsam <br> possimus ex eaque ullam totam illum laudantium molestiae natus</p>
+    </section>
+    <footer class="pt-6">
+      <div class="flex justify-between">
+        <p class="text-lg text-neutral-500">All rights reserved &copy; 2024 <strong class="font-bold">Tenace TechZone</strong></p>
+     <p class="text-lg text-neutral-500">Terms & Condition <span>Privacy Policy</span></p>
+      </div>
+    </footer>
     </main>
 </template>
 
