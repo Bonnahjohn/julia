@@ -17,7 +17,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm hero section mmmmmmmmmmmmmmmm -->
  <section class=" bg-[#1e1f24] rounded-2xl py-14">
 <div class="flex flex-col justify-center text-center text-white">
-   <img :src="image" alt="hero image" class="lg:w-[20%] lg:h-[30%] w-40 rounded-[100%] mx-auto ">
+   <img :src="image" alt="hero image" class="lg:w-[30%] lg:h-[40%] w-40 rounded-3xl mx-auto ">
    <br>
    <br>
           <p class=" font-bold  text-2xl "> Hello There, I'm </p>
@@ -27,8 +27,8 @@
  flex buttons
 mmmmmmmmmmmmmmmm -->
          <div class="flex mx-auto pt-12 space-x-6">
-          <button class="bg-[#adff00] hover:bg-transparent hover:border-[#adff00] border-[#adff00] border-2 hover:text-white
-           px-10 py-3 font-bold text-lg rounded-md text-black">HIRE ME</button>
+          <a class="bg-[#adff00] hover:bg-transparent hover:border-[#adff00] border-[#adff00] border-2 hover:text-white
+           px-10 py-3 font-bold text-lg rounded-md text-black" href="#hire">HIRE ME</a>
 
            <a class="bg-[#adff00] hover:bg-transparent hover:border-[#adff00] border-[#adff00] border-2 hover:text-white
            px-10 py-3 font-bold text-lg rounded-md text-black" href="#about">ABOUT ME</a>
@@ -409,7 +409,7 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       contact us
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-    <section class=" bg-white  py-36 mt-16 rounded-2xl lg:px-10 px-5">
+    <section class=" bg-white  py-36 mt-16 rounded-2xl lg:px-10 px-5" id="hire">
       <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">GET IN TOUCH</h5>
       <br><p class="text-lg text-neutral-600 text-center">
  Duis aute irure in reprehen pteur sint occaect cupidatat  <br>
@@ -472,14 +472,14 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      the map
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-<div class="bg-red-700 h-full w-full">
+<div class="bg-red-700 h-full w-full rounded-2xl">
 g
 </div>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      the contact us form
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
       <form >
-        <h6 class="text-3xl font-bold">Write a message</h6>
+        <h6 class="text-4xl font-bold">Write a message</h6>
         <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-5  gap-y-4 pt-10">
           <input type="text" placeholder="Name*" class="border border-gray-400 rounded-md p-3">
           <input type="email" placeholder="Email*" class="border border-gray-400 rounded-md p-3">
@@ -502,7 +502,7 @@ g
       <p class="text-center text-lg text-neutral-500"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti magnam nisi facilis ab nobis quia labore hic ipsam <br> possimus ex eaque ullam totam illum laudantium molestiae natus</p>
     </section>
     <footer class="pt-6">
-      <div class="flex justify-between">
+      <div class="flex justify-between gap-3">
         <p class="text-lg text-neutral-500">All rights reserved &copy; 2024 <strong class="font-bold">Tenace TechZone</strong></p>
      <p class="text-lg text-neutral-500">Terms & Condition <span>Privacy Policy</span></p>
       </div>
