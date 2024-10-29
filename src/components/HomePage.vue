@@ -1,6 +1,6 @@
 <template >
-    <nav class="w-full fixed z-30  py-4 " :class="[isScroll?'backdrop-blur-lg border shadow-md bg-gray-800/50':'bg-transparent']">
-     <div class="container mx-auto px-2 lg:px-6 flex justify-between items-center">
+    <nav class="w-full fixed z-30  py-4 " :class=" [isScroll?'backdrop-blur-lg border-2 shadow-md bg-gray-800/50':'bg-transparent']">
+     <div class="container mx-auto px-3 lg:px-6 flex justify-between items-center">
 
       <div>
         <strong class=" text-3xl font-bold" :class="[isScroll?'text-[#adff00]':'text-white']">Tenace</strong>
@@ -12,12 +12,12 @@
     </nav>
 
 
-    <main class="container px-2 lg:px-6 mx-auto pt-24">
+    <main class="container px-3 lg:px-6 mx-auto pt-24">
 
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm hero section mmmmmmmmmmmmmmmm -->
  <section class=" bg-[#1e1f24] rounded-2xl py-14">
 <div class="flex flex-col justify-center text-center text-white">
-   <img :src="image" alt="hero image" class="lg:w-[30%] lg:h-[40%] w-40 rounded-3xl mx-auto ">
+   <img :src="image" alt="hero image" class="w-40 h-40 rounded-full mx-auto object-cover">
    <br>
    <br>
           <p class=" font-bold  text-2xl "> Hello There, I'm </p>
@@ -28,17 +28,20 @@
 mmmmmmmmmmmmmmmm -->
          <div class="flex mx-auto pt-12 space-x-6">
           <a class="bg-[#adff00] hover:bg-transparent hover:border-[#adff00] border-[#adff00] border-2 hover:text-white
-           px-10 py-3 font-bold text-lg rounded-md text-black" href="#hire">HIRE ME</a>
+           lg:px-10 px-5 py-3 font-bold text-lg rounded-md text-black" href="#hire">HIRE ME</a>
 
            <a class="bg-[#adff00] hover:bg-transparent hover:border-[#adff00] border-[#adff00] border-2 hover:text-white
-           px-10 py-3 font-bold text-lg rounded-md text-black" href="#about">ABOUT ME</a>
+           lg:px-10 px-5 py-3 font-bold text-lg rounded-md text-black" href="#about">ABOUT ME</a>
          </div>
 </div>
  </section>
  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm welcome to my world mmmmmmmmmmmmmmmm -->
  <section class=" bg-white  py-12 mt-16 rounded-2xl px-10">
   <h2 class="font-extrabold text-2xl text-center underline " style="text-decoration-color: #adff00;text-decoration-thickness: 3px;">WELCOME TO MY WORLD</h2>
-<br> <p class="text-gray-400 text-center text-xl ">I'm a young tech enthasist and plumber who love to take <br> risk.I grew up in a non-tech family in Ghana</p>
+<br>
+ <p class="text-gray-400 text-center text-xl  lg:visible hidden">I'm a young tech enthasist and plumber who love to take <br> risk.I grew up in a non-tech family in Ghana</p>
+ <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm for mobile only mmmmmmmmmmmmmmmm -->
+ <p class="text-gray-400 text-center text-xl ">I'm a young tech enthasist and plumber who love to take  risk.I grew up in a non-tech family in Ghana</p>
  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmm the three cards mmmmmmmmmmmmmmmm -->
   <div class="grid lg:grid-cols-3 grid-row-1 gap-8 mt-14">
 <div class="border-gray-400 border rounded-2xl px-10 py-12">
@@ -136,7 +139,7 @@ mmmmmmmmmmmmmmmm -->
     </section>
 
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm about me mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
- <section class=" bg-white  py-16 mt-16 rounded-2xl lg:px-10 px-5" id="about">
+ <section class=" bg-white  py-16 mt-16 rounded-2xl lg:px-10 px-3" id="about">
 
 <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-16 gap-y-10 ">
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm image mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
@@ -167,9 +170,9 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
   <li class="text-gray-500 text-lg">John Bonnah</li>
   
   <li class="text-xl font-bold pt-3">Email</li>
-  <li class="text-gray-500 text-lg">Gob3@gmail.com</li>
+  <li class="text-gray-500 text-lg"><a class="text-lg text-gray-500" href="mailto:www.bonnahpoku@gmail.com">Bonnahpoku@gmail.com</a></li>
   <li class="text-xl font-bold pt-3">Phone</li>
-  <li class="text-gray-500 text-lg">+233555555555</li>
+  <li class="text-gray-500 text-lg"><a class="text-lg text-gray-500" href="tel:+233554308135">0554308135</a></li>
 </ul>
 
 <ul>
@@ -267,14 +270,15 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 <section class=" bg-white  py-14 mt-16 rounded-2xl lg:px-10 px-5">
   <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">PORTFOLIO</h5>
-<br><p class="text-lg text-neutral-400 text-center hidden lg:visible">
+<br>
+<p class="text-lg text-neutral-400 text-center lg:block  hidden">
   Showcasing a collection of work that demonstrates expertise and attention to detail.<br>
   Every project is crafted  to deliver quality and drive impactful results.
  </p>
  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
    for mobile only
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
- <p class="text-lg text-neutral-400 text-center lg:hidden visible">
+ <p class="text-lg text-neutral-400 text-center lg:hidden block">
   Showcasing a collection of work that demonstrates expertise and attention to detail.
   Every project is crafted  to deliver quality and drive impactful results.
  </p>
@@ -411,9 +415,12 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <section class=" bg-white  py-36 mt-16 rounded-2xl lg:px-10 px-5" id="hire">
       <h5 class="font-extrabold text-2xl text-center underline decoration-[#adff00] decoration-2">GET IN TOUCH</h5>
-      <br><p class="text-lg text-neutral-600 text-center">
- Duis aute irure in reprehen pteur sint occaect cupidatat  <br>
- non proident,sunt in culim id est.
+      <br>
+      <p class="text-lg text-neutral-600 text-center lg:block hidden">
+        Feel free to reach out with any questions or project ideas. I'm here to help bring your <br>  vision to life and make every interaction a meaningful one.
+      </p>
+      <p class="text-lg text-neutral-600 text-center lg:hidden block whitespace-break-spaces">
+        Feel free to reach out with any questions or project ideas. I'm here to help bring your   vision to life and make every interaction a meaningful one.
       </p>
      
       <div class="grid lg:grid-cols-3 grid-rows-1 pt-12 lg:gap-x-5  gap-y-4">
@@ -429,7 +436,7 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
 
 </div> <br>
 <h5 class="text-2xl font-bold text-center">Address</h5>
-<p class="text-lg text-neutral-500 text-center">lorem gjal ;llmdkml g,,dfslfd,l</p>
+<p class="text-lg text-neutral-500 text-center">Dumanafo. Plot 10 Blk K</p>
     </div>
        
   <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
@@ -468,29 +475,31 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
       <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       the two grid  for the contact us
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-      <div class="grid lg:grid-cols-2 grid-rows-1 gap-12 pt-16">
+      <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-8 gap-y-8 pt-16">
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      the map
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-<div class="bg-red-700 h-full w-full rounded-2xl">
-g
+<div class=" h-full w-full rounded-2xl">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d102122218.44251117!2d-78.87664549542814!3d38.63685821932477!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdbbf9d75456329%3A0x4677e0670ea1d98b!2sWadie%20Adwumakase!5e0!3m2!1sen!2sgh!4v1730148990461!5m2!1sen!2sgh"  style="border:0;" class="w-full h-full" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      the contact us form
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <div>
       <form >
         <h6 class="text-4xl font-bold">Write a message</h6>
         <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-5  gap-y-4 pt-10">
           <input type="text" placeholder="Name*" class="border border-gray-400 rounded-md p-3">
           <input type="email" placeholder="Email*" class="border border-gray-400 rounded-md p-3">
         </div>
-        <textarea   class="border border-gray-400 rounded-md mt-5 w-full h-[60%] p-4 mb-3" placeholder="Your Message here"></textarea>
+        <textarea   class="border border-gray-400 rounded-md mt-5 w-full h-[70%] p-4 mb-3" placeholder="Your Message here" rows="8"></textarea>
     
         <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      submit button
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
         <button class="bg-[#adff00] hover:bg-opacity-50 hover:text-white px-10 py-3 font-bold text-lg rounded-lg">SEND MESSAGE</button>
       </form>
+    </div>
       </div>
     </section>
 
@@ -499,8 +508,16 @@ g
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <section class=" bg-[#1e1f24]  py-16 mt-16 rounded-2xl lg:px-10 px-5">
       <h6 class="text-[#adff00] text-4xl font-bold text-center">Tenace</h6> <br>
-      <p class="text-center text-lg text-neutral-500"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti magnam nisi facilis ab nobis quia labore hic ipsam <br> possimus ex eaque ullam totam illum laudantium molestiae natus</p>
-    </section>
+      <p class="text-center text-lg text-neutral-500 lg:block hidden">
+        Driven by a deep commitment, I strive to overcome challenges and approach each task with resilience.
+         <br> I believe persistence and focus lead to the best results, turning obstacles into growth opportunities.</p>
+        <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     for mobile only
+      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+         <p class="text-center text-lg text-neutral-500 block lg:hidden whitespace-break-spaces">
+        Driven by a deep commitment, I strive to overcome challenges and approach each task with resilience.
+          I believe persistence and focus lead to the best results, turning obstacles into growth opportunities.</p>
+        </section>
     <footer class="pt-6">
       <div class="flex justify-between gap-3">
         <p class="text-lg text-neutral-500">All rights reserved &copy; 2024 <strong class="font-bold">Tenace TechZone</strong></p>
