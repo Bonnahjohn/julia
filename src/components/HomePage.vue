@@ -130,7 +130,7 @@ mmmmmmmmmmmmmmmm -->
   Web <br>Development
   
 </h4>
-<h4 class="text-7xl text-center text-gray-500 opacity-100">200</h4>
+<h4 class="text-7xl text-center text-gray-500 opacity-100">20</h4>
 </div>
 
 
@@ -144,7 +144,7 @@ mmmmmmmmmmmmmmmm -->
 <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-16 gap-y-10 ">
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm image mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 <div >
-  <img :src="world" alt="my world image" class="w-full h-full rounded-2xl">
+  <img :src="world" alt="my world image" class="w-full h-full rounded-2xl object-cover">
 </div>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm about me texts mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
  <div>
@@ -408,7 +408,10 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
     </div>
     </section>
 
-
+    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+      Testimonial
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+<TestimonialFile/>
     
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       contact us
@@ -539,7 +542,14 @@ import third from '@/assets/images/thi.jpg'
 import four from '@/assets/images/fou.jpg'
 import fifth from '@/assets/images/fiv.jpg'
 import six from '@/assets/images/six.jpg'
+// mmmmmmmmmmmmmmmmmmmm
+// file imports 
+//mmmmmmmmmmmmm
+import TestimonialFile from '@/views/TestimonialFile.vue'
 export default {
+components:{
+TestimonialFile
+},
   data() {
     return{
       image,
