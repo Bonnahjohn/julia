@@ -483,7 +483,7 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
      the map
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 <div class=" h-full w-full rounded-2xl">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d102122218.44251117!2d-78.87664549542814!3d38.63685821932477!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdbbf9d75456329%3A0x4677e0670ea1d98b!2sWadie%20Adwumakase!5e0!3m2!1sen!2sgh!4v1730148990461!5m2!1sen!2sgh"  style="border:0;" class="w-full h-full" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3961.8748071483665!2d-1.5503489749226353!3d6.785086243211985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdumanafo!5e0!3m2!1sen!2sgh!4v1730489807897!5m2!1sen!2sgh" width="600" height="450" style="border:0; width:100%;height:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
      the contact us form
