@@ -40,7 +40,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm 
    second blog
     mmmmmmmmmmmmmmmmmmmmmm -->
-    <a href="https://quickfixer.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://yie.netlify.app/" target="_blank" rel="noopener noreferrer">
   <div class="border border-gray-400 rounded-lg py-12 h-full text-center hover:bg-slate-200 cursor-pointer">
   <p class="text-gray-500">Website</p>
   <br>
@@ -55,7 +55,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm 
    third blog
     mmmmmmmmmmmmmmmmmmmmmm -->
-    <a href="https://quickfixer.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://utmost.netlify.app/" target="_blank" rel="noopener noreferrer">
   <div class="border border-gray-400 rounded-lg py-12 h-full text-center hover:bg-slate-200 cursor-pointer">
   <p class="text-gray-500">Website</p>
   <br>
@@ -63,18 +63,18 @@
   
   <br>
   <br>
-  <p class="text-gray-500">May,2022</p>
+  <p class="text-gray-500">January 26,2023</p>
 </div>
 </a>
 
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm 
    fourth blog
     mmmmmmmmmmmmmmmmmmmmmm -->
-    <a href="https://quickfixer.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://app.netlify.com/sites/magiks/" target="_blank" rel="noopener noreferrer">
   <div class="border border-gray-400 rounded-lg py-12 h-full text-center hover:bg-slate-200 cursor-pointer">
   <p class="text-gray-500">Website</p>
   <br>
-  <h4 class="font-bold text-xl ">Built a website using TailwindCss </h4>
+  <h4 class="font-bold text-xl ">Built a website using Bootstrap </h4>
   
   <br>
   <br>
