@@ -489,7 +489,7 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
      the contact us form
       mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <div>
-      <form >
+      <form @submit.prevent="">
         <h6 class="text-4xl font-bold">Write a message</h6>
         <div class="grid lg:grid-cols-2 grid-rows-1 lg:gap-x-5  gap-y-4 pt-10">
           <input type="text" placeholder="Name*" class="border border-gray-400 rounded-md p-3">

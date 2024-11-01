@@ -48,7 +48,7 @@
   
   <br>
   <br>
-  <p class="text-gray-500">March,2023</p>
+  <p class="text-gray-500">September,2022</p>
 </div>
 </a>
 
@@ -63,7 +63,7 @@
   
   <br>
   <br>
-  <p class="text-gray-500">March,2023</p>
+  <p class="text-gray-500">May,2022</p>
 </div>
 </a>
 
