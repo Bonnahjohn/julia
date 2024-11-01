@@ -5,7 +5,7 @@
     <h5 class="font-bold text-2xl text-center underline decoration-[#adff00] decoration-2 ">MY BLOGS</h5>
 <br>
 <p class="text-lg text-neutral-400 text-center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem tenetur.
+  Explore insightful posts on tech, development tips, and industry trends. Stay updated and inspired!
 </p>
 <div class="grid lg:grid-cols-2 grid-rows-1 pt-16 lg:gap-x-8 gap-y-8">
  
@@ -90,7 +90,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem
   <section class=" bg-[#1e1f24]  py-12 mt-16 rounded-2xl lg:px-10 px-5">
     <h5 class="font-bold text-2xl text-center underline decoration-[#adff00] decoration-2 text-white">TESTIMONIALS</h5>
 <br><p class="text-lg text-neutral-400 text-center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem tenetur.
+  Read what my clients have to say about working with me.
 </p>
 
 <div class="grid lg:grid-cols-3 grid-rows-1 pt-16 lg:gap-x-6 gap-y-8">
@@ -99,11 +99,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem
    <div class="bg-white px-5 py-12 rounded-2xl shadow-slate-500 shadow-lg ">
     <img :src="Fpic" alt="Client" class="w-24 h-24 rounded-full mx-auto object-cover border-[4px] border-[#adff00]">
     <h5 class="text-center font-bold text-2xl pt-3">Fuseni Hamza</h5>
-    <h5 class="text-center text-gray-400  text-xl ">Merns Stack</h5>
+    <h5 class="text-center text-gray-400  text-xl ">MERN Stack Developer</h5>
     <br>
     
 <p class="text-ellipsis text-gray-600 px-2 text-base" >
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo rerum inventore! Repellendus, perferendis? Nostrum doloribus assumenda suscipit alias doloremque!
+  Working with Bonnah John has been a great experience! They truly understand the tech and delivered exactly what I needed.
 </p>
    </div>
    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm second person mmmmmmmmmmmmmmmmmm -->
@@ -114,7 +114,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem
     <br>
     
 <p class="text-ellipsis text-gray-600 px-2 text-base">
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo rerum inventore! Repellendus, perferendis? Nostrum doloribus assumenda suscipit alias doloremque!
+  Efficient, knowledgeable, and attentive to detail. John Bonnah brought our vision to life seamlessly. Exceptional work!
 </p>
    </div>
    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm third person mmmmmmmmmmmmmmmmmm -->
@@ -125,7 +125,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis autem
     <br>
     
 <p class="text-ellipsis text-gray-600 px-2 text-base">
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo rerum inventore! Repellendus, perferendis? Nostrum doloribus assumenda suscipit alias doloremque!
+  Bonnah John consistently brought fresh ideas to our project and delivered with high quality and dedication. Highly recommended!
 </p>
    </div>
 </div>

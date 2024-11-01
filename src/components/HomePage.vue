@@ -526,6 +526,7 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
         <p class="text-lg text-neutral-500">All rights reserved &copy; 2024 <strong class="font-bold">Tenace TechZone</strong></p>
      <p class="text-lg text-neutral-500">Terms & Condition <span>Privacy Policy</span></p>
       </div>
+      
     </footer>
     </main>
 </template>
