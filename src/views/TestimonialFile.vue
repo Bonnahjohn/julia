@@ -11,7 +11,7 @@
  
  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm  bg image mmmmmmmmmmmmmmmmmmmmmm -->
 <div class="lg:block hidden">
-<div  style="border-radius: 16px;background-image: url('/src/assets/images/sec.jpg');background-position: center;background-repeat: repeat;background-size: cover;widows: 100%;height: 100%;">
+<div  style=" border-radius: 16px;background-image: url('/src/assets/images/sec.jpg');background-position: center;background-repeat: repeat;background-size: cover;widows: 100%;height: 100%;">
 <div class="h-full w-full rounded-2xl bg-black bg-opacity-40">
 <div class="pt-[27rem] px-5">
   <p class="text-center text-white italic text-2xl ">Frameworks I use more often.</p>
