@@ -40,7 +40,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm 
    second blog
     mmmmmmmmmmmmmmmmmmmmmm -->
-    <a href="https://yie.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <a  href="https://tenace.netlify.app/" target="_blank" rel="noopener noreferrer">
   <div class="border border-gray-400 rounded-lg py-12 h-full text-center hover:bg-slate-200 cursor-pointer">
   <p class="text-gray-500">Website</p>
   <br>
@@ -70,7 +70,7 @@
 <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmm 
    fourth blog
     mmmmmmmmmmmmmmmmmmmmmm -->
-    <a href="https://app.netlify.com/sites/magiks/" target="_blank" rel="noopener noreferrer">
+    <a href="https://magiks.netlify.app" target="_blank" rel="noopener noreferrer">
   <div class="border border-gray-400 rounded-lg py-12 h-full text-center hover:bg-slate-200 cursor-pointer">
   <p class="text-gray-500">Website</p>
   <br>
