@@ -151,12 +151,12 @@ mmmmmmmmmmmmmmmm -->
   <h4 class="text-[#b4ff3c] font-bold  text-2xl">ABOUT ME</h4>
   <h4 class="lg:text-5xl text-4xl font-bold">Frontend Developer From Ghana</h4>
   <br>
-  <p class="text-lg text-neutral-400">
+  <p class="lg:text-lg text-neutral-400 text-base">
     I'm a self-taught developer with expertise in Flutter, Vue, and .NET.
     My programming journey began in 2020, fueled by curiosity and a love for problem-solving.
 
   </p><br>
-  <p class="text-lg text-neutral-400">
+  <p class="lg:text-lg text-neutral-400 text-base">
  With a background as a senior high school graduate, I continuously push myself to learn and grow.
 I’m dedicated to building meaningful projects and delivering impactful solutions.
 
@@ -166,23 +166,23 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
   <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm important notes didsplay in flex  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
    <div class="flex pt-6 space-x-12 lg:space-x-24">
 <ul>
-  <li class="text-xl font-bold">Name</li>
-  <li class="text-gray-500 text-lg">John Bonnah</li>
+  <li class="lg:text-xl font-bold text-base">Name</li>
+  <li class="text-gray-500 lg:text-lg text-base">John Bonnah</li>
   
-  <li class="text-xl font-bold pt-3">Email</li>
+  <li class="lg:text-xl font-bold pt-3 text-base">Email</li>
   <li class="text-gray-500 text-lg"><a class="text-lg text-gray-500" href="mailto:www.bonnahpoku@gmail.com">Bonnahpoku@gmail.com</a></li>
-  <li class="text-xl font-bold pt-3">Phone</li>
-  <li class="text-gray-500 text-lg"><a class="text-lg text-gray-500" href="tel:+233554308135">0554308135</a></li>
+  <li class="lg:text-xl font-bold pt-3 text-base">Phone</li>
+  <li class="text-gray-500 lg:text-lg text-base"><a class="text-lg text-gray-500" href="tel:+233554308135">0554308135</a></li>
 </ul>
 
 <ul>
-  <li class="text-xl font-bold">Age</li>
-  <li class="text-gray-500 text-lg">34</li>
+  <li class="lg:text-xl font-bold text-base">Age</li>
+  <li class="text-gray-500 lg:text-lg text-base">24</li>
   
-  <li class="text-xl font-bold pt-3">Education</li>
-  <li class="text-gray-500 text-lg">General Arts</li>
-  <li class="text-xl font-bold pt-3">Freelance</li>
-  <li class="text-gray-500 text-lg">Available</li>
+  <li class="lg:text-xl font-bold pt-3 text-base">Education</li>
+  <li class="text-gray-500 lg:text-lg text-base">General Arts</li>
+  <li class="lg:text-xl font-bold pt-3 text-base">Freelance</li>
+  <li class="text-gray-500 lg:text-lg text-base">Available</li>
 </ul>
    </div><br><br>
    <button class="bg-[#adff00] hover:bg-opacity-50 hover:text-white px-10 py-3 font-bold text-lg rounded-lg">DWONLOAD  CV</button>
@@ -520,6 +520,12 @@ I’m dedicated to building meaningful projects and delivering impactful solutio
          <p class="text-center text-lg text-neutral-500 block lg:hidden whitespace-break-spaces">
         Driven by a deep commitment, I strive to overcome challenges and approach each task with resilience.
           I believe persistence and focus lead to the best results, turning obstacles into growth opportunities.</p>
+       
+       <div class="justify-center pt-8 space-x-4 flex">
+<a href="https://github.com/Bonnahjohn" target="_blank" rel="noopener noreferrer"><img :src="github" alt="github" class="w-10 h-10 rounded-full"></a>
+<a href="https://www.linkedin.com/in/john-bonnah-823462260/" target="_blank" rel="noopener noreferrer"><img :src="linkedin" alt="linkedin" class="w-10 h-10 rounded-full"></a>
+<a href="https://www.youtube.com/@TenaceTechZone" target="_blank" rel="noopener noreferrer"><img :src="youtube" alt="youtube" class="w-10 h-10 rounded-full"></a>
+    </div>
         </section>
     <footer class="pt-6">
       <div class="flex justify-between gap-3">
@@ -543,6 +549,12 @@ import third from '@/assets/images/thi.jpg'
 import four from '@/assets/images/fou.jpg'
 import fifth from '@/assets/images/fiv.jpg'
 import six from '@/assets/images/six.jpg'
+//  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+//       social media images
+//     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm 
+import github from '@/assets/images/github.png'
+import linkedin from '@/assets/images/linkedin.png'
+import youtube from '@/assets/images/youtube.png'
 // mmmmmmmmmmmmmmmmmmmm
 // file imports 
 //mmmmmmmmmmmmm
@@ -556,6 +568,7 @@ TestimonialFile
       image,
       world,
       first,second,third,four,fifth,six,
+      github,linkedin,youtube,
       isScroll:false,
 activeTab:'All',
 tabs:['All','Website','Mobile ']
